@@ -59,21 +59,21 @@ $ python ratelimiter.py 2 5 1 2 4 5 6 7 8 9
 **Input 2:**
 
 ```
-$ python ratelimiter.py 1 6 2 8 6 7 9 3 4 7
+$ python aqfer.py 2 5 1628679347 1628679348 1628679350 1628679351 1628679352 1628679353 1628679354 1628679355
 ```
 
 **Output 2:**
 
 ```
-2 allowed
-8 allowed
-6 blocked
-7 blocked
-9 blocked
-3 allowed
-4 allowed
-7 blocked
+1628679347 allowed
+1628679348 allowed
+1628679350 blocked
+1628679351 blocked
+1628679352 blocked
+1628679353 allowed
+1628679354 allowed
+1628679355 blocked
 ```
-![image](https://user-images.githubusercontent.com/70798723/234883449-d0d7bcc1-1aec-4df9-b010-04b6a7f02381.png)
+![image](https://user-images.githubusercontent.com/70798723/235289055-46634a99-c173-46ba-b1ee-0af2c329f9b2.png)
 
 
